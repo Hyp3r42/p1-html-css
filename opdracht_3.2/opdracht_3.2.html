@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="opmaak.css">
+</head>
+<body>
+
+
+    <form action=" ">
+
+        <label for="fname">Voornaam:</label><br>
+        <input type="text" placeholder="Uw Voornaam" id="fname" name=" uw naam" value="" required>
+        <br>
+        <label for="lname">Achternaam:</label><br>
+        <input type="text" placeholder="Uw Achternaam" name="lname" value="" required>
+        <br>
+
+        <br>
+            <legend>kies je geslacht:</legend>
+            <label for="Male">Male</label>
+              <input type="radio"  id="male" value="male" checked>
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="female" value="female" required>
+            </fieldset>
+            <br><br>
+            <label for="fname">BSN Nummer:</label><br>
+            <input type="text" placeholder="mag niet meer dan 9 cijfers" id="fname" name="fname" value="" required>
+            <br><br>
+            <label for="fname">stad:</label><br>
+            <input type="text" placeholder="Kies uw stad" id="fname" name="fname" value="" required>
+            <br><br>
+            <label for="fname">Land:</label><br>
+            <input type="text" placeholder="Kies uw Land" id="fname" name="fname" value="" required>
+    
+            <br><br>
+            <label for="fname">Postcode:</label><br>
+            <input type="text" placeholder="Uw Postcode" name="fname" value="" required>
+    
+            <br><br>
+            <label for="fname">straat met huisnummer:</label><br>
+        <input type="text" placeholder="Uw huisnummer" name="fname" value="" required>
+
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30" required>
+        <label for="age1">0 - 10</label><br>
+        <input type="radio" id="age1" name="age" value="30" required>
+        <label for="age1">11 - 20</label><br>
+        <input type="radio" id="age2" name="age" value="60" required>
+        <label for="age2">21- 50</label><br>
+        <input type="radio" id="age3" name="age" value="100" required>
+        <label for="age3">51 - 100</label><br><br>
+      </form>
+      <br>
+      <form action="/action_page.php">
+        <label for="cars">Vakantieland:</label required>
+        <select name="Vakantieland" id="Vakantieland" required>
+          <option value="vSpanje">Spanje</option required>
+          <option value="Nederland">Nederland</option required>
+          <option value="Turkije">Turkije</option required>
+          <option value="Duitsland">duitsland</option required>
+          <option value="Brazilië">Brazilië</option required>
+        </select>
+        <br><br>
+
+        <form action="/action_page.php">
+            <label for="cars">Reisgenoten:</label>
+            <select name="Reisgenoten" id="Reisgenoten" required>
+              <option value="1">1</option required>
+              <option value="2">2</option required>
+              <option value="3">3</option required>
+              <option value="4">4</option required>
+            </select>
+<br><br>
+Datum Vertrek: 
+<br>
+<input type="Date" name="datum aanmeldung" id="" required>
+<br><br>
+Datum aankomst: 
+<br>
+<input type="Date" name="datum aanmeldung" id="" required>
+<br>
+    <br>
+    <label for="pwd">Wachtwoord:</label required>
+    <br>
+    <input type="Password" placeholder="Uw Wachtwoord" name="" id="pwd" required>
+    <br><br>
+    <br>
+   <input type="submit" value="Boek nu">
+ </form>
+</body>
+</html>
