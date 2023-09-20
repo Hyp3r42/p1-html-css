@@ -10,3 +10,72 @@ border-style: solid;
 td{
     border-style: solid;
 }
+body{
+    background-color:
+}
+ul{
+    list-style-type: none;
+}
+<table{
+    background-color: blue;
+}
+td{
+    border-style: solid;
+    background-color: blueviolet;
+}
+h1{
+    color:blueviolet
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 50%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+
+  nav {
+    display: flex;
+    width: 97%;
+    padding: 3rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: green;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.2rem;
+    padding: 0 3rem 0 3rem;
+  }
+  nav a {
+    color: green
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  p{
+    color: green
+
+
+
+  }
+  h1{
+    color: black;
+    size: 100px
+    ;
+  }
+  p{
+   text-size-adjust: 80px;
+  }
