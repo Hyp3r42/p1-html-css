@@ -1,12 +1,12 @@
 h1{
     font-size: 24px;
-    color: blue;
+    color: red;
     font-weight: bold;
     font-style: italic;
 } 
 h2{
     font-size: 24px;
-    color: #0000ff
+    color: #0000ff;
     font-weight: bold;
 }
 h3{
@@ -15,7 +15,7 @@ h3{
     font-weight: bold;
 }
 #p1{
-    color: #4d4d4d;
+    color: red;
 font-weight: bold;
 }
 a{
@@ -24,3 +24,22 @@ a{
     
 
 }
+header{
+    background-image: url(img/I23P003FC24.jpg);
+    background-repeat: no-repeat;
+background-size: 100%;
+width: 100vw;
+height: 70vh;
+font-size: 24px;
+color: white;
+font-size: italic;
+}
+
+p{
+
+    color: red;
+    border: 3px solid red;
+    border-radius: 25px;
+    border-left: solid 10px;
+}
+
