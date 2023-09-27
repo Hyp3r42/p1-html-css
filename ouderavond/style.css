@@ -79,3 +79,24 @@ h1{
   p{
    text-size-adjust: 80px;
   }
+  #p1{
+    color: black;
+  }
+  #nav1{
+    display: flex;
+       width: 100%;
+       padding: 15px;
+       min-height: 10vh;
+       align-items: center;
+       flex-wrap: wrap;
+       margin: auto;
+       background: green;
+       justify-content: space-between;
+       float: right;
+       
+   }
+   div{
+    float: right;
+    padding: 15px;
+    
+   }
