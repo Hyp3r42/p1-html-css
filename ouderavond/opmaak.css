@@ -1,5 +1,6 @@
 body{
-    background-color: darkgreen;
+    background-size: 100%;
+    background-image: url(thumbnail_IMG_0371\ \(1\).jpg);
 }
 h1{
     text-align: center;
@@ -8,7 +9,6 @@ nav {
     display: flex;
     width: 20%;
     height: 200%;
-    background: green;
     justify-content: space-between;
   }
   nav ul {
@@ -27,3 +27,5 @@ nav {
   form{
     text-align: center;
   }
+
+  
