@@ -48,57 +48,21 @@ nav{
 nav img{
   width: 140px;
 }
-.nav-links{
-  flex: 1;
-  text-align: right;
-
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
 }
-.nav-links ul li{
-  list-style: none; geen punten op de tekst;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-
-}
-.nav-links ul li a{
-  text-decoration: none;
-  color: white  ;
-  font-size: 18px;
-}
-.nav-links ul li::after{
-  content: '';
-  width: 0;
-  height: 2px;
-  background: aqua;
-  display: block; 
-  margin: auto;
-  transition: 0.7s;
-}
-.nav-links ul li:hover::after{
-  width: 100%;
-}
-button{
-  background-color: green;
-  color: lightgreen;
-  border: none;
-  width: 220px;
-  height: 60px;
-  border-radius: 17px;
-  cursor: pointer;
-  transition: 0.7s;
-  font-size: 16px ;
-  margin-left: 350px;
-  margin-top: 350px;
-}
-
-button:hover{
-  background-color: lightgreen;
-  color: green;
-}
-button:active{
-  opacity: 0.4;
-}
-
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right
+    width: 100%;
+  }
  </style>
 </head>
 
